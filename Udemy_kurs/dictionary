@@ -1,0 +1,13 @@
+"""dictionary is listed with key and values like switch case logic"""
+dic={"one":1,"two":2,"three":3,"four":4}
+print(dic["one"])
+#add new elements in dictionary
+dic["five"]=5
+print(dic)
+shoulder={"put":9,"your":10,"head":11}
+#nested dictionary
+dic2 = {
+    "numbers": dic,
+    "body_parts": shoulder
+}
+print(dic2)

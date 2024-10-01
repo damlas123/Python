@@ -1,0 +1,5 @@
+#weight and tall index
+x=int(input("enter your weight:"))
+t=float(input("enter your height:"))
+
+print("your body index:",x/t**2)

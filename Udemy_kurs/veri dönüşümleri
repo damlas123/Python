@@ -1,0 +1,14 @@
+#int to float
+a=5
+print(float(a))
+
+#float to int
+b=5.87
+print(int(b))
+
+#number to string
+
+c=3454
+print(str(c))
+d=str(c)
+print(type(d))

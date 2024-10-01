@@ -1,0 +1,23 @@
+#a="Merhaba"
+#print(a)
+#print(a[3])
+#print(a[-3])
+"""
+b=" you are formidable for me therefore I broke up with you now I feel bad but I can't do nothing sorry. Forgive me , please for everything"
+print(b[::])
+print(b[6:25])
+print(b[:19])
+print(b[::-1])
+"""
+"""
+a="merhaba"
+print(len(a))
+"""
+"""
+a="Hello\t"
+b="how are you?\t"
+c="I think I will miss you forever\t"
+print("From my heart \n",a+ b +c)
+"""
+a="python"
+print(a*3)

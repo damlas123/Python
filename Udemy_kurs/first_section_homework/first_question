@@ -1,0 +1,6 @@
+
+a=int(input("enter a number:"))
+b=int(input("enter another number:"))
+c=int(input("enter another number:"))
+
+print("the multiplacation is these numbers: {}".format(a*b*c))

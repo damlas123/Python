@@ -1,0 +1,7 @@
+# we use sep parameter for placement specifical bracket
+
+
+print(87,"python",7.84,98, sep = "/")
+#star parameter is using for decompose each word
+
+print(*"hello world did not see my face when I was triying to kill myself ?")

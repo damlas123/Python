@@ -1,0 +1,17 @@
+"""append method use to add new element in an array"""
+list1=[8,"python",9.74]
+list1.append("do you think we will be in love?")
+print(list1)
+#pop method use to delete element if nothing write in pop, the last element will be deleted
+list1.pop()
+print(list1)
+list1.pop(2)
+print(list1)
+#sort using for sorting an array
+list2= ["crumble"]
+list2.append("sky fall")
+list2.append("this the end and here my heart")
+list2.append("money must be funny")
+list2.append("always sunny for you")
+print(list2)
+print(list2.sort())

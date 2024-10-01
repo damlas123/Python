@@ -1,0 +1,8 @@
+print("please enter the coefficent")
+a=int(input("first coefficent:"))
+b=int(input("second coefficent:"))
+c=int(input("third coefficent:"))
+delta=b**2-4*a*c
+first_root=(-b-delta**0.5)/(2*a)
+second_root=(-b+delta**0.5)/(2*a)
+print("first root is:",first_root,"second root is:",second_root)

@@ -1,0 +1,10 @@
+print("Welcome person record system")
+
+name=input("enter name:")
+surname=input("enter surname:")
+number=int(input("enter number:"))
+
+
+print("The person number which recorded")
+
+print("Name:{}  Surname:{}\nNumber:{}".format(name,surname,number))

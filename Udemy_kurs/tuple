@@ -1,0 +1,5 @@
+"""tuples are inconvertable list """
+tuple1=(1,2,3,4,5,5,5,5,6)
+print(type(tuple1))
+print(tuple1.count(5))
+print(tuple1.index(4))

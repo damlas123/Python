@@ -1,0 +1,3 @@
+a=float(input("enter how many fuel consumption does your car:"))
+b=int(input("enter kilometer:"))
+print("The cost is:{}".format(a*b))
