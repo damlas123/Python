@@ -1,0 +1,22 @@
+print("WELCOME TO CALCULATOR")
+
+operator=input("please enter operator:\n1-Add 2 number\n2-Subscrube 2 number\n3-Multiply 2 number\n4-Divide 2 number\n")
+x=int(input("enter first number:"))
+x1=int(input("enter second one:"))
+if operator== "1":
+    print("{}".format(x+x1))
+elif operator== "2":
+    if x>x1: 
+     print("{}".format(x-x1))
+    else:
+        print("{}".format(x1-x))
+
+elif operator=="3":
+    print("{}".format(x*x1))
+elif operator=="4":
+    if x>x1:
+        print("{}".format(x/x1))
+    else:
+        print("{}".format(x1/x))
+else:
+    print("you enter wrong operator. Please enter right choices.")
