@@ -1,0 +1,17 @@
+x=int(input("enter a number:"))
+y=int(input("enter another number:"))
+z=int(input("enter another one:"))
+if x>y and x>z:
+    print("{} is the biggest number".format(x))
+elif y>z and y>x:
+    print("{} is the biggest number".format(y))
+elif y<z and y>x:
+    print("{} is the biggest number".format(z))
+elif y>z and y==x:
+    print("{} is the biggest number".format(y))
+elif y==z and y>x:
+    print("{} is the biggest number".format(y))
+elif y<z and z==x:
+    print("{} is the biggest number".format(x))
+else:
+    print("All number is equal")

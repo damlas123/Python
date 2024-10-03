@@ -1,0 +1,18 @@
+mid1=int(input("enter your midterm 1 note:"))
+mid2=int(input("enter your midterm 2 note:"))
+final1=int(input("enter your final exam note:"))
+total=mid1*0.3+mid2*0.3+final1*0.4
+if total>=90:
+    print("AA")
+elif total>=85:
+    print("BA")
+elif total>=80:
+    print("CB")
+elif total>=70:
+    print("CC")
+elif total>=65:
+    print("DC")
+elif total>=60:
+    print("DD")
+elif total>=55:
+    print("FF")
